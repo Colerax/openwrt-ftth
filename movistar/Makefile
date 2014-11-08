@@ -20,8 +20,7 @@ define Package/ftth-movistar
   SUBMENU:=FTTH
   URL:=http://www.taranus.es/
   TITLE:=FTTH Movistar
-  DEPENDS:=+kmod-bridge +kmod-ipt-nathelper-rtsp +swconfig +bird4 +mcproxy +udpxy +xupnpd 
-  	+nfs-utils +kmod-fs-nfs +kmod-fs-nfs-common
+  DEPENDS:=+kmod-bridge +kmod-ipt-nathelper-rtsp +swconfig +bird4 +mcproxy +udpxy +xupnpd +nfs-utils +kmod-fs-nfs +kmod-fs-nfs-common
 endef
 
 define Build/Compile
