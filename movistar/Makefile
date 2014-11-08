@@ -10,7 +10,7 @@ PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_URL:=git://github.com/Colerax/openwrt-ftth.git
 PKG_SOURCE_VERSION:=$(PKG_VERSION)
 
-PKG_MAINTAINER:=Álvaro Fernández Rojas <noltari@gmail.com>
+PKG_MAINTAINER:=Colerax <colerax@gmail.com>
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -18,7 +18,7 @@ define Package/ftth-movistar
   SECTION:=net
   CATEGORY:=Network
   SUBMENU:=FTTH
-  URL:=http://foro.seguridadwireless.net/openwrt/
+  URL:=http://www.taranus.es/
   TITLE:=FTTH Movistar
   DEPENDS:=+kmod-bridge +kmod-ipt-nathelper-rtsp +swconfig +bird4 +mcproxy +udpxy +xupnpd
 endef
