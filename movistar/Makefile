@@ -27,9 +27,4 @@ define Build/Compile
 
 endef
 
-define Package/ftth-movistar/install
-	$(INSTALL_DIR) $(1)/usr/sbin
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/movistar.sh $(1)/usr/sbin/ftth-movistar
-endef
-
 $(eval $(call BuildPackage,ftth-movistar))
