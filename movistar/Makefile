@@ -20,7 +20,7 @@ define Package/ftth-movistar
   SUBMENU:=FTTH
   URL:=http://www.taranus.es/
   TITLE:=FTTH Movistar
-  DEPENDS:=+luci +luci-i18n-spanish +kmod-bridge +kmod-ipt-nathelper-rtsp +swconfig +bird4 +mcproxy +udpxy +xupnpd +nfs-utils +kmod-fs-nfs +kmod-fs-nfs-common +kmod-nls-cp437 +kmod-nls-cp850 +kmod-nls-cp852 +kmod-nls-iso8859-15 +kmod-nls-utf8 +miniupnpd +luci-app-upnp +tcpdump +htop +ddns-scripts +luci-app-ddns +kmod-usb-storage +kmod-fs-ntfs +kmod-fs-ext4 +kmod-fs-vfat +block-mount +kmod-scsi-core +e2fsprogs +samba36-server +luci-app-samba +ntfs-3g +fdisk +kmod-usb-uhci +kmod-usb2 +nfs-kernel-server +usbutils
+  DEPENDS:=+luci +luci-i18n-spanish +kmod-bridge +kmod-ipt-nathelper-rtsp +swconfig +bird4 +mcproxy +udpxy +xupnpd +nfs-utils +kmod-fs-nfs +kmod-fs-nfs-common +kmod-nls-cp437 +kmod-nls-cp850 +kmod-nls-cp852 +kmod-nls-iso8859-15 +kmod-nls-utf8 +miniupnpd +luci-app-upnp +tcpdump +htop +ddns-scripts +luci-app-ddns +kmod-usb-storage +kmod-fs-ntfs +kmod-fs-ext4 +kmod-fs-vfat +block-mount +kmod-scsi-core +e2fsprogs +samba36-server +luci-app-samba +ntfs-3g +fdisk +kmod-usb-uhci +kmod-usb2 +nfs-kernel-server +usbutils +kmod-loop   
 endef
 
 define Build/Compile
